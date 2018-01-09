@@ -9,16 +9,16 @@ import javax.ws.rs.core.Response;
 
 @Path("apiserver")
 public class ApiResource {
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response getIt() {
-    	System.out.println("Hola esto es un get");
-        return Response.status(200).entity("{jdnjkdcnejw}").build();
-    }
+  @GET
+  @Produces(MediaType.APPLICATION_JSON)
+  public Response getIt() {
+    System.out.println("Hola esto es un get");
+    return Response.status(200).entity("{jdnjkdcnejw}").build();
+  }
     
-    @POST
-    @Produces(MediaType.APPLICATION_JSON)
+  @POST
+  @Produces(MediaType.APPLICATION_JSON)
     public Response postIt(String req) {
-        return Response.status(200).entity(req).build();
-    }
+    return Response.status(200).entity(req).build();
+  }
 }               
