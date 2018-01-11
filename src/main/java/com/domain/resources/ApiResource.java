@@ -19,6 +19,8 @@ public class ApiResource {
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     public Response postIt(String req) {
-        return Response.status(200).entity(req).build();
+    	System.out.println(req);
+    	String resp = "{ \"speech\": \"This is the server response\", \"displayText\": \"This is the server response\" }";
+        return Response.status(200).type(MediaType.APPLICATION_JSON).entity(resp).build();
     }
 }               
