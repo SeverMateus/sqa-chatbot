@@ -12,7 +12,12 @@ public class Packet {
 		this.ETA = ETA;
 	}
 	
-	public Packet() {}
+	public Packet() {
+		id = -1;
+		location ="";
+		ETA = "";
+		price = 0;
+	}
 
 	public int getId() {
 		return id;
