@@ -14,8 +14,7 @@ public class ApiResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getIt() {
-    	System.out.println("Hola esto es un get");
-        return Response.status(200).entity("{\"jdnjkdcnejw\"}").build();
+        return Response.status(200).entity("{\"response\":\"success!\"}").build();
     }
     
     @POST
