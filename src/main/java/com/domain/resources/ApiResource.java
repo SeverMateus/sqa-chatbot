@@ -18,7 +18,7 @@ public class ApiResource {
     
   @POST
   @Produces(MediaType.APPLICATION_JSON)
-    public Response postIt(String req) {
+  public Response postIt(String req) {
     return Response.status(200).entity(req).build();
   }
 }               
