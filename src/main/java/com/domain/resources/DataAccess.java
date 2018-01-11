@@ -26,19 +26,19 @@ public class DataAccess {
 		Packet p; 
 		switch(id) {
 		case 1:
-			p = new Packet (1, "Madrid", (float) 223.45, "Tomorrow");
+			p = new Packet (1, "Madrid", (float) 44.99, "Tomorrow");
 			break;
 		case 2:
-			p = new Packet (2, "Barcelona", (float) 223.45, "in 2 days");
+			p = new Packet (2, "Barcelona", (float) 19.95, "in 2 days");
 			break;
 		case 3:
-			p = new Packet (3, "Paris", (float) 223.45, "in 5 days");
+			p = new Packet (3, "Paris", (float) 2.79, "in 5 days");
 			break;
 		case 4:
-			p = new Packet (4, "Lisbon", (float) 223.45, "on Sunday");
+			p = new Packet (4, "Lisbon", (float) 24.95, "on Sunday");
 			break;
 		case 5:
-			p = new Packet (5, "London", (float) 223.45,  "not so soon");
+			p = new Packet (5, "London", (float) 32.10,  "not so soon");
 			break;
 		default:
 			p = new Packet();
