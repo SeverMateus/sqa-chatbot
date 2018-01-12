@@ -1,55 +1,67 @@
 package com.domain.resources;
 
 public class Packet {
-	int id;
-	String location, ETA;
-	float price;
-	
-	public Packet(int id, String location, float price, String ETA) {
-		this.id = id;
-		this.location = location;
-		this.price = price;
-		this.ETA = ETA;
-	}
-	
-	public Packet() {
-		id = -1;
-		location ="";
-		ETA = "";
-		price = 0;
-	}
+  int id;
+  String location;
+  String eta;
+  float price;
 
-	public int getId() {
-		return id;
-	}
+  /**
+   * Parameterized constructor for the Packet.
+   * 
+   * @param id The id of the packet
+   * @param location The location where the packet is at
+   * @param price The price of the item
+   * @param eta The estimated time of arrival for the packet
+   */
+  public Packet(int id, String location, float price, String eta) {
+    this.id = id;
+    this.location = location;
+    this.price = price;
+    this.eta = eta;
+  }
+  
+  /**
+   * The empty constructor for the Packet.
+   */
+  public Packet() {
+    id = -1;
+    location = "";
+    eta = "";
+    price = 0;
+  }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+  public int getId() {
+    return id;
+  }
 
-	public String getLocation() {
-		return location;
-	}
+  public void setId(int id) {
+    this.id = id;
+  }
 
-	public void setLocation(String location) {
-		this.location = location;
-	}
+  public String getLocation() {
+    return location;
+  }
 
-	public String getETA() {
-		return ETA;
-	}
+  public void setLocation(String location) {
+    this.location = location;
+  }
 
-	public void setETA(String eTA) {
-		ETA = eTA;
-	}
+  public String getEta() {
+    return eta;
+  }
 
-	public float getPrice() {
-		return price;
-	}
+  public void setEta(String eta) {
+    this.eta = eta;
+  }
 
-	public void setPrice(float price) {
-		this.price = price;
-	}
-	
-	
+  public float getPrice() {
+    return price;
+  }
+
+  public void setPrice(float price) {
+    this.price = price;
+  }
+
+
 }
