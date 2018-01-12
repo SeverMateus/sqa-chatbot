@@ -529,18 +529,6 @@
 
 
 
-        "jacket":
-
-
-        "cardigan":
-
-
-        "shirt":
-
-
-        "skirt":
-
-
         "travel bags":{
             "ankle":{
                 "response":null
@@ -793,8 +781,6 @@
             }
         },
 
-        "flat":
-
 
         "shorts":{
             "ankle":{
@@ -877,13 +863,6 @@
                 "response":null
             }
         },
-
-
-        "coat/cape":
-
-
-        "tops":
-
 
         "pump/wedge":{
             "ankle":{
@@ -973,7 +952,6 @@
         },
 
 
-        "sweatshirt/hoodie":
 
 
         "sandals":{
@@ -1105,9 +1083,6 @@
                 "response":null
             }
         },
-
-
-        "blazer":
 
 
         "top handles":{
@@ -1282,9 +1257,6 @@
         },
 
 
-        "sweater":
-
-
         "backpack":{
             "ankle":{
                 "response":null
@@ -1386,7 +1358,7 @@
             "3/4 sleeves":{
                 "response":null
                 }
-            },
+            ,
             "full length":{
                 "response":{
                     "attribute":"pants length:long",
@@ -1409,7 +1381,7 @@
             "short sleeves":{
                 "response":null
             }
-        },
+        ,
 
 
         "glasses/sunglasses":{
